@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  #mintTransactionsColumn {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  #crossReferenceColumn {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .transaction {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .transaction span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .cross-reference {
+    background-color: #f0f8ff; /* Light blue */
+    border: 1px solid #87cefa;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
